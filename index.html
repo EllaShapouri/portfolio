@@ -9,24 +9,15 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
   <!-- Google Fonts -->
   <link
     href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-
 
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
-  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
@@ -45,16 +36,47 @@
 
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
-  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- <i class="bi bi-list mobile-nav-toggle d-lg-none"></i> -->
+  <div class="mobile-nav-toggle d-lg-none">
+    <svg class="menu-icon" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#45505b' width='34' height='34'>
+      <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+    </svg>
+    <svg class="x-icon" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#fefefe' width='28' height='28'>
+      <path
+        d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+      </path>
+    </svg>
+  </div>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
+        <li><a href="#hero" class="nav-link scrollto active"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+              fill='#45505b' width='24' height='24'>
+              <path
+                d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 0 0 .707-1.707l-9-9a.999.999 0 0 0-1.414 0l-9 9A1 1 0 0 0 3 13zm7 7v-5h4v5h-4zm2-15.586 6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z">
+              </path>
+            </svg> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+              fill='#45505b' width='24' height='24'>
+              <path
+                d="M12 2a5 5 0 1 0 5 5 5 5 0 0 0-5-5zm0 8a3 3 0 1 1 3-3 3 3 0 0 1-3 3zm9 11v-1a7 7 0 0 0-7-7h-4a7 7 0 0 0-7 7v1h2v-1a5 5 0 0 1 5-5h4a5 5 0 0 1 5 5v1z">
+              </path>
+            </svg> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+              fill='#45505b' width='24' height='24'>
+              <path
+                d="M19.937 8.68c-.011-.032-.02-.063-.033-.094a.997.997 0 0 0-.196-.293l-6-6a.997.997 0 0 0-.293-.196c-.03-.014-.062-.022-.094-.033a.991.991 0 0 0-.259-.051C13.04 2.011 13.021 2 13 2H6c-1.103 0-2 .897-2 2v16c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2V9c0-.021-.011-.04-.013-.062a.99.99 0 0 0-.05-.258zM16.586 8H14V5.414L16.586 8zM6 20V4h6v5a1 1 0 0 0 1 1h5l.002 10H6z">
+              </path>
+            </svg> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+              fill='#45505b' width='24' height='24'>
+              <path
+                d="M20 3H4c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V5c0-1.103-.897-2-2-2zM4 19V5h7v14H4zm9 0V5h7l.001 14H13z">
+              </path>
+              <path d="M15 7h3v2h-3zm0 4h3v2h-3z"></path>
+            </svg> <span>Portfolio</span></a>
         </li>
       </ul>
     </nav><!-- .nav-menu -->
@@ -67,11 +89,31 @@
       <h1>Elahe Shapouri</h1>
       <p>I'm <span class="typed" data-typed-items="Front-end developer"></span></p>
       <div class="social-links">
-        <a href="https://www.linkedin.com/in/elahe-shapouri-a98171203" class="linkedin"><i
-            class="bx bxl-linkedin"></i></a>
-        <a href="https://github.com/EllaShapouri" class="github"><i class="bx bxl-github"></i></a>
-        <a href="skype:live:.cid.a43f2284f98f1ddb?chat" class="skype"><i class="bx bxl-skype"></i></a>
-        <a href="mailto:ellashapouri@gmail.com" class="email"><i class="bx bx-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/elaheshapouri" class="linkedin"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#45505b' width='24' height='24'>
+            <circle cx="4.983" cy="5.009" r="2.188"></circle>
+            <path
+              d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+            </path>
+          </svg></a>
+        <a href="https://github.com/EllaShapouri" class="github"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#45505b' width='24' height='24'>
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
+            </path>
+          </svg></a>
+        <a href="skype:live:.cid.a43f2284f98f1ddb?chat" class="skype"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#45505b' width='24' height='24'>
+            <path
+              d="M11.857 17.417c-2.947 0-4.294-1.524-4.294-2.641 0-.266.108-.521.298-.705a.946.946 0 0 1 .71-.264c1.261 0 .931 1.92 3.286 1.92 1.203 0 1.91-.736 1.91-1.425 0-.415-.234-.889-1.028-1.079l-2.629-.673c-2.111-.545-2.479-1.737-2.479-2.842 0-2.293 2.068-3.124 4.036-3.124 1.814 0 3.97 1.016 3.97 2.391 0 .592-.488.91-1.055.91-1.078 0-.897-1.536-3.063-1.536-1.077 0-1.645.513-1.645 1.23s.839.96 1.574 1.123l1.941.445c2.126.486 2.691 1.751 2.691 2.963 0 1.865-1.423 3.305-4.226 3.305m8.139-3.942c.086-.49.128-.986.128-1.482a8.472 8.472 0 0 0-2.952-6.474 8.211 8.211 0 0 0-6.788-1.856A4.818 4.818 0 0 0 7.935 3a4.954 4.954 0 0 0-4.27 2.519 5.103 5.103 0 0 0-.015 5.011 8.51 8.51 0 0 0 2.282 7.453 8.23 8.23 0 0 0 7.333 2.355 4.823 4.823 0 0 0 2.443.662 4.954 4.954 0 0 0 4.269-2.518 5.095 5.095 0 0 0 .016-5.009">
+            </path>
+          </svg></a>
+        <a href="mailto:ellashapouri@gmail.com" class="email"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#45505b' width='24' height='24'>
+            <path
+              d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z">
+            </path>
+          </svg></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -105,18 +147,30 @@
             <div class="row">
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>First name:</strong> <span> Elahe</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span> EllaShapouri</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Skype Name:</strong>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>First name:</strong> <span> Elahe</span></li>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>Github:</strong> <span> EllaShapouri</span></li>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>Skype Name:</strong>
                     <span>live:.cid.a43f2284f98f1ddb</span>
                   </li>
                 </ul>
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span> 22</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span> Bachelor</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span> ellashapouri@gmail.com</span>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>Age:</strong> <span> 22</span></li>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>Degree:</strong> <span> Bachelor</span></li>
+                  <li><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#0563bb' width='24' height='24'>
+                      <path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path>
+                    </svg> <strong>Email:</strong> <span> ellashapouri@gmail.com</span>
                   </li>
                 </ul>
               </div>
@@ -182,6 +236,7 @@
                 <li>Create your graph or tree with drag-and-drop nodes and paths</li>
                 <li>You can see step by step how the algorithm works on your data with other information.</li>
               </ol>
+              <p>Skills : React JS, styled-component, React Flow, Redux, ...</p>
             </div>
             <div class="resume-item">
               <h4>Toplearn</h4>
@@ -194,12 +249,14 @@
                 <li>Authentication and cookies</li>
                 <li>React hooks</li>
               </ul>
+              <p>Skills: React js, Redux, Redux-thunk, Axios, Lodash, React-router</p>
             </div>
             <div class="resume-item">
               <h4>business template - grid system</h4>
               <h5>Apr 2021</h5>
               <p><em>I created a business template by HTML/CSS. In addition, I made my grid system for this project like
                   a Bootstrap grid.</em></p>
+              <p>Skills: HTML, CSS, Javascript</p>
             </div>
             <div class="resume-item">
               <h4>To-do app</h4>
@@ -207,7 +264,7 @@
               <p><em>The To-do app is a SPA created with React js. in this app, users sign up or log in and can add
                   their tasks, edit, delete, and set them as done tasks.
                   I experienced the following: Working with API calls, React hooks, and authentication.</em></p>
-
+              <p>Skills: React js, Axios, React-router, React-bootstrap</p>
             </div>
           </div>
         </div>
@@ -258,10 +315,20 @@
               </div>
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/Graph.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
-                      class="bx bx-plus"></i></a>
-                  <a href="https://ellashapouri.github.io/graph-tree-algorithms/" title="Demo"><i
-                      class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/Graph.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
+                  <a href="https://ellashapouri.github.io/graph-tree-algorithms/" title="Demo"><svg
+                      xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#45505b' width='28' height='28'>
+                      <path
+                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z">
+                      </path>
+                      <path
+                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z">
+                      </path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -299,10 +366,20 @@
               </div>
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/toplearn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
-                      class="bx bx-plus"></i></a>
-                  <a href="https://github.com/EllaShapouri/toplearn"><i
-                      class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/toplearn.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
+                  <a href="https://github.com/EllaShapouri/toplearn"><svg xmlns='http://www.w3.org/2000/svg'
+                      viewBox='0 0 24 24' fill='#45505b' width='28' height='28'>
+                      <path
+                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z">
+                      </path>
+                      <path
+                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z">
+                      </path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -336,8 +413,11 @@
               </div>
               <div class="portfolio-info">
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/todo.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
-                      class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/todo.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -368,7 +448,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/carchain.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -399,7 +482,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/landin.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -430,7 +516,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/Tarazoo.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -453,7 +542,7 @@
                   <img src="./assets/img/icons/js.png" alt="">
                   <span>JavaScript</span>
                 </div>
-                
+
                 <div class="icon-portfolio html">
                   <img src="./assets/img/icons/git.png" alt="">
                   <span>Git</span>
@@ -462,7 +551,19 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/template.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
+                  <a href="https://github.com/EllaShapouri/business-template" title="Demo"><svg
+                      xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#45505b' width='28' height='28'>
+                      <path
+                        d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z">
+                      </path>
+                      <path
+                        d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z">
+                      </path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -492,7 +593,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/weblite n.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -522,7 +626,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/shenase.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -553,7 +660,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/dr next.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -584,7 +694,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/Bitpin.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -614,7 +727,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/peykan.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -644,7 +760,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/digirefahi.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -674,7 +793,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/mobinnet.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -704,7 +826,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/Mootanroo.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -734,7 +859,10 @@
               <div class="portfolio-info">
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/kalleh.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                    class="portfolio-lightbox"><svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'
+                      fill='#45505b' width='28' height='28'>
+                      <path d="M19 11h-6V5h-2v6H5v2h6v6h2v-6h6z"></path>
+                    </svg></a>
                 </div>
               </div>
             </div>
@@ -783,9 +911,25 @@
       <h3>Elahe Shapouri</h3>
       <p>You can connect with me through the links below</p>
       <div class="social-links">
-        <a href="mailto:ellashapouri@gmail.com" class="email"><i class="bx bx-envelope"></i></a>
-        <a href="skype:live:.cid.a43f2284f98f1ddb?chat" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="https://www.linkedin.com/in/elahe-shapouri-a98171203" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="mailto:ellashapouri@gmail.com" class="email"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#f0f0f0' width='24' height='24'>
+            <path
+              d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z">
+            </path>
+          </svg></a>
+        <a href="skype:live:.cid.a43f2284f98f1ddb?chat" class="google-plus"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#f0f0f0' width='24' height='24'>
+            <path
+              d="M11.857 17.417c-2.947 0-4.294-1.524-4.294-2.641 0-.266.108-.521.298-.705a.946.946 0 0 1 .71-.264c1.261 0 .931 1.92 3.286 1.92 1.203 0 1.91-.736 1.91-1.425 0-.415-.234-.889-1.028-1.079l-2.629-.673c-2.111-.545-2.479-1.737-2.479-2.842 0-2.293 2.068-3.124 4.036-3.124 1.814 0 3.97 1.016 3.97 2.391 0 .592-.488.91-1.055.91-1.078 0-.897-1.536-3.063-1.536-1.077 0-1.645.513-1.645 1.23s.839.96 1.574 1.123l1.941.445c2.126.486 2.691 1.751 2.691 2.963 0 1.865-1.423 3.305-4.226 3.305m8.139-3.942c.086-.49.128-.986.128-1.482a8.472 8.472 0 0 0-2.952-6.474 8.211 8.211 0 0 0-6.788-1.856A4.818 4.818 0 0 0 7.935 3a4.954 4.954 0 0 0-4.27 2.519 5.103 5.103 0 0 0-.015 5.011 8.51 8.51 0 0 0 2.282 7.453 8.23 8.23 0 0 0 7.333 2.355 4.823 4.823 0 0 0 2.443.662 4.954 4.954 0 0 0 4.269-2.518 5.095 5.095 0 0 0 .016-5.009">
+            </path>
+          </svg></a>
+        <a href="https://www.linkedin.com/in/elaheshapouri/" class="linkedin"><svg xmlns='http://www.w3.org/2000/svg'
+            viewBox='0 0 24 24' fill='#f0f0f0' width='24' height='24'>
+            <circle cx="4.983" cy="5.009" r="2.188"></circle>
+            <path
+              d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z">
+            </path>
+          </svg></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>MyResume</span></strong>. All Rights Reserved
@@ -794,8 +938,11 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#fff' width='24' height='24'>
+      <path d="M11 8.414V18h2V8.414l4.293 4.293 1.414-1.414L12 4.586l-6.707 6.707 1.414 1.414z"></path>
+    </svg>
+  </a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
